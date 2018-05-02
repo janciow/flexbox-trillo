@@ -14,7 +14,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: var(--color-white);
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
 
   display: flex;
   justify-content: space-between; //rociąga do boków
@@ -35,8 +35,11 @@
 
 .hotel-view {
   background-color: var(--color-white);
-  background-color: orangered;
   height: 80rem;  
   
   flex: 1; // grow 1 occupy rest of container: rosną 1 zajmują resztę pojemnika
+}
+
+.detail {
+  
 }
