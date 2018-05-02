@@ -14,7 +14,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: var(--color-white);
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
 
   display: flex;
   justify-content: space-between; //rociąga do boków
@@ -29,17 +29,33 @@
   flex: 0 0 18%; // grow, shrink, width : rosnąć, zmniejszać, szerokość
 
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .hotel-view {
   background-color: var(--color-white);
-  height: 80rem;  
-  
+
   flex: 1; // grow 1 occupy rest of container: rosną 1 zajmują resztę pojemnika
 }
 
 .detail {
-  
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
+}
+
+.description {
+  font-size: 1.4rem;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex:  0 0 60%;
+  margin-right: 4.5rem;
+}
+
+.user-review {
+  background-color: yellow;
+  flex: 1;
 }
